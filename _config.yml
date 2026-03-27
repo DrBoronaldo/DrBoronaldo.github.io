@@ -8,29 +8,28 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Your Name / Site Title"
+site_theme               : "default"
+title                    : "Yufan Wu"
 title_separator          : "-"
 name                     : &name "Yufan Wu"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://yufanwu.github.io",
-                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "yufanwu.github.io"
+description              : &description "Yufan Wu's academic portfolio"
 
-# Site Author - The following control what appear as part of the author content on the side bar.
-#               If a field is blank the icon and link will not appear, otherwise it will be shown.
-#               Additional customization can be done by editing /_includes/author-profile.html
+# ！！！重点修改这里！！！
+url                      : "https://yufanwu.github.io" 
+baseurl                  : "" 
+repository               : "yufanwu/yufanwu.github.io"
+
+# Site Author
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  avatar           : "profile.png" # 确保你在 images 文件夹里有一张叫 profile.png 的照片
+  name             : "Yufan Wu"
+  pronouns         : # 选填，例如 "he/him"
+  bio              : "Ph.D. Student / Researcher in Sport Management" # 这里写你的简短介绍
+  location         : "Tokyo, Japan" # 你的所在地
+  employer         : "Waseda University" # 你的学校
+  uri              : 
+  email            : "yufan-wu@toki.waseda.jp"
 
   # Academic websites
   academia         : # URL
