@@ -9,23 +9,23 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Yufan Wu"
+title                    : "Yufan Wu (DrBoronaldo)" # 这里的名字你可以按需修改
 title_separator          : "-"
 name                     : &name "Yufan Wu"
-description              : &description "Yufan Wu's academic portfolio"
-url                      : "https://yufanwu.github.io"
+description              : &description "Academic portfolio of Yufan Wu"
+
+# ！！！最重要的路径修改！！！
+url                      : "https://DrBoronaldo.github.io"
 baseurl                  : ""
-repository               : "yufanwu/yufanwu.github.io"
+repository               : "DrBoronaldo/DrBoronaldo.github.io"
 
 # Site Author
 author:
-  avatar           : "profile.png"
+  avatar           : "profile.png" # 记得在 images 文件夹放一张 profile.png
   name             : "Yufan Wu"
   bio              : "Ph.D. Student in Sport Management"
   location         : "Tokyo, Japan"
   employer         : "Waseda University"
-  googlescholar    : "https://scholar.google.com/citations?user=rnK0AbkAAAAJ&hl=en"
-  github           : "yufanwu"
 
   # Academic websites
   academia         : # URL
